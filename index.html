@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lato:100" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Mono" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+    <meta charset="UTF-8">
+    
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <title>Mickes todoList</title>
+
+    
+</head>
+
+<body>
+    <div class="bg">
+        <div class="container">
+
+            <div class="col-xs-offset-2 col-xs-8">
+                <p><span>complete and final ultimate list of </span></p>
+            </div>
+
+            <div class="textholder col-xs-offset-2 col-xs-8">
+                <h2><span>TODOS</span></h2>
+            </div>
+
+            <div class="col-xs-offset-2 col-xs-8 kors">
+                <input type="text" id="todoInput" autofocus>
+            </div>
+
+
+            <div class="col-xs-offset-2 col-xs-8 buttonPlaceholder">
+                <button id="add">ADD</button>
+                <button id="clear">CLEAR ALL</button>
+            </div>
+
+
+            <div class="col-xs-12 boxWrapper">
+
+                <div class="col-xs-12 col-md-6 outerBox">
+
+                    <div class="col-xs-12 innerBox">
+                        <h4>TODOS</h4>
+                        <ul id="incomplete">
+                        </ul>
+                    </div>
+
+                </div>
+
+                <div class="col-xs-12 col-md-6  outerBox">
+
+                    <div class="col-xs-12 innerBox">
+                        <h4>COMPLETE</h4>
+                        <ul id="complete">
+
+                        </ul>
+                    </div>
+                </div>
+
+
+
+            </div>
+            <div class="col-xs-12">
+                <h4 id="happyWords"></h4>
+
+            </div>
+        </div>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+
+</html>
